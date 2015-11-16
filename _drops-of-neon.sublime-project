@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"path": "../calliope"
+		}
+	],
+	"virtualenv": "/home/randall/Code/venvs/abjad_2.16"
+}
