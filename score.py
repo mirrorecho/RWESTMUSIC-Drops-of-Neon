@@ -31,13 +31,15 @@ class Intro3(Neon):
     viola = Line("a8( b) r4 r4 r4\\fermata | r8( b c'[ a]) r2 | R1")
     cello = Line('b8(^"lightly" a) a2 r4\\fermata | b8( a4 b8) a2~ | a2 r2 ')
 
-
 class Intro4(Neon):
     violin1 = Blot1()
     cello = Blot1() + Blot1()
 
 class Intro(GridSequence, Neon):
     grid_sequence = (Intro1, Intro2, Intro3, Intro4)
+
+class MaybeWouldWork(GridSequence, Neon):
+    music = Intro1() + Intro2() + Intro3()
 
 class NeonMusic(GridSequence, Neon):
     grid_sequence = (Intro, )
