@@ -15,15 +15,15 @@ class BlotDrill2(BlotDrill1):
     voice2 = Line("a8([ b)]")
 
 class Blot1(Line):
-    music = BubbleMaterial("neon.blots.1")
+    music = BubbleMaterial("blots.one")
 
 class Blot2(MultiLine):
     a = Line("s4 d'4")
-    b = BubbleMaterial("neon.blots.2")
+    b = BubbleMaterial("blots.two")
 
 class Blot3(MultiLine):
     a = Line("d'4 s4")
-    b = BubbleMaterial("neon.blots.3")
+    b = BubbleMaterial("blots.three")
 
 class Blot4(Line):
-    music = BubbleMaterial("neon.blots.4")
+    music = BubbleMaterial("blots.four")

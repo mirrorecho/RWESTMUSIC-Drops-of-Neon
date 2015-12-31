@@ -22,9 +22,9 @@ class CelloIntroCresc(SimulLine):
         attach(cresc, music[1].select_leaves()[3:] )
 
 class Intro1(Neon):
-    violin1 = BubbleMaterial("neon.intro.rest_opening") + BubbleMaterial("neon.intro.rest_1")
+    violin1 = BubbleMaterial("intro.violins")
     violin2 = violin1
-    viola = BubbleMaterial("neon.intro.rest_opening") + Line("a8( b) r4 r4 r4\\fermata", instruction="sul tasto, lightly", dynamic="pp")
+    viola = BubbleMaterial("intro.viola")
     cello = CelloIntroCresc() + Line("b8( a) a2 r4\\fermata", instruction="lightly", dynamic="pp")
 
 class Intro2(Neon):
